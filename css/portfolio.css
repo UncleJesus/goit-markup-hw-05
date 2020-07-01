@@ -53,6 +53,7 @@
 }
 
 .filter-animation {
+  display: flex;
   top: 0;
   left: 0;
   background-color: rgba(33, 150, 243, 0.9);
@@ -71,17 +72,11 @@
 }
 
 .filter-text {
-  left: 0;
-  top: 0;
-  position: absolute;
+  margin: auto 0;
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
-  margin-top: 63px;
-  margin-bottom: 63px;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 .filter-item .text {

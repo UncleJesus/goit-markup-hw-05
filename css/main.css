@@ -132,6 +132,7 @@ a {
 
 /* FOOTER */
 .footer {
+  background-size: cover;
   background-color: #2f303a;
 }
 .footer-logo {
@@ -230,4 +231,8 @@ a {
 
 .social-link-li:hover {
   background-color: var(--accent-color);
+}
+
+.footer-icon-flex {
+  display: flex;
 }
