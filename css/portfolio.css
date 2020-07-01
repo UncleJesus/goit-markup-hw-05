@@ -32,15 +32,16 @@
   letter-spacing: 0.03em;
 }
 .filter-item .title {
-  padding-top: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 20px;
+  margin-bottom: 4px;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 .filter-item .link {
   display: block;
@@ -72,12 +73,17 @@
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
-  padding-top: 30px;
+  margin-top: 63px;
+  margin-bottom: 63px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .filter-item .text {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
