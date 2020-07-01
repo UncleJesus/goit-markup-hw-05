@@ -227,3 +227,7 @@ a {
 .address-item {
   margin-bottom: 60px;
 }
+
+.social-link-li:hover {
+  background-color: var(--accent-color);
+}
