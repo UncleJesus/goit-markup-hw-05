@@ -231,7 +231,7 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icon:hover,
-.team-icon:active {
+.team-icon:focus {
   fill: var(--primary-white-color);
 }
 /* ПОСТОЯННЫЕ КЛИЕНТЫ */
@@ -257,7 +257,7 @@
   fill: var(--accent-color);
 }
 .partners-section .partner-item:hover,
-.partners-section .partner-item:active {
+.partners-section .partner-item:focus {
   border-color: var(--accent-color);
 }
 .partners-section .partner-item:not(:last-child) {
@@ -317,6 +317,6 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-hover:hover,
-.icon-hover:active {
+.icon-hover:focus {
   fill: var(--accent-color);
 }

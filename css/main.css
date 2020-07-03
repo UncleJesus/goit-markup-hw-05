@@ -111,7 +111,7 @@ a {
   margin-right: 10px;
 }
 .address:hover,
-.address:active {
+.address:focus {
   color: var(--accent-color);
 }
 .site-cont.list {
@@ -122,11 +122,11 @@ a {
   margin-left: 30px;
 }
 .address:hover .envelope,
-.address:active .envelope {
+.address:focus .envelope {
   fill: var(--accent-color);
 }
 .address:hover .smartphone,
-.address:active .smartphone {
+.address:focus .smartphone {
   fill: var(--accent-color);
 }
 
